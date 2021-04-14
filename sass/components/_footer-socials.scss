@@ -50,7 +50,6 @@
   }
 }
 
-// Mobile 480
 @media screen and (max-width: 767px) {
   .footer-socials {
     margin-left: 0;
@@ -79,14 +78,12 @@
   }
 }
 
-// Tablet 768
 @media screen and (min-width: 768px) {
   .footer-socials__title {
     text-align: center;
   }
 }
 
-//Desktop >1200
 @media screen and (min-width: 1200px) {
   .footer-socials {
     display: block;

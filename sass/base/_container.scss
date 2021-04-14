@@ -1,7 +1,6 @@
 .container {
   padding-left: 15px;
   padding-right: 15px;
-  // outline: 1px solid orange;
 
   .header & {
     display: flex;
@@ -28,11 +27,3 @@
     width: 1200px;
   }
 }
-
-// .container {
-//   width: 1200px;
-//   margin-left: auto;
-//   margin-right: auto;
-//   padding-left: 15px;
-//   padding-right: 15px;
-// }

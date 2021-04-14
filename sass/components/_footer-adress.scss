@@ -19,7 +19,6 @@
   @include address(var(--footer-adr-color), 400, 14px, 1.71, 0.03em);
 }
 
-// Mobile 480
 @media screen and (max-width: 767px) {
   .footer__address {
     display: flex;
@@ -43,7 +42,6 @@
   }
 }
 
-// Tablet 768
 @media screen and (min-width: 768px) {
   .footer__address {
     display: flex;
@@ -67,7 +65,6 @@
   }
 }
 
-//Desktop >1200
 @media screen and (min-width: 1200px) {
   .footer__address {
     align-items: flex-start;

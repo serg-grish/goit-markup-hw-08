@@ -27,7 +27,7 @@
   margin-bottom: 30px;
 }
 
-// Mobile 480x796
+
 @media screen and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(
@@ -48,7 +48,7 @@
   }
 }
 
-// Tablet 768x3248
+
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(
@@ -69,7 +69,7 @@
   }
 }
 
-//Desktop >1200
+
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;

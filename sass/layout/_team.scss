@@ -1,6 +1,5 @@
 .team {
   background: var(--team-section-bground);
-  // min-width: 480px;
 }
 
 .team__title {
@@ -27,7 +26,6 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-// Mobile 480x796
 @media screen and (max-width: 767px) {
   .team {
     padding-top: 60px;
@@ -45,7 +43,7 @@
   }
 }
 
-// Tablet 768x3248
+
 @media screen and (min-width: 768px) {
   .team {
     padding-top: 60px;
@@ -56,7 +54,7 @@
   }
 }
 
-//Desktop >1200
+
 @media screen and (min-width: 1200px) {
   .team {
     padding-top: var(--section-inner-padding);
@@ -70,7 +68,7 @@
     flex-basis: calc(100% / 4 - var(--card-set-gap));
   }
 }
-//===old styles====
+
 
 .team__box {
   margin: 0 auto;
@@ -96,5 +94,5 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 10px;
-  margin-bottom: 16px; /*отступ до списка соц.линков*/
+  margin-bottom: 16px; 
 }

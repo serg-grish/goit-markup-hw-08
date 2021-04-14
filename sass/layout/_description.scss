@@ -1,26 +1,19 @@
-// Чем мы занимаемся
-// Mobile 480x796
 @media screen and (max-width: 767px) {
   .description {
     display: none;
   }
 }
 
-// Tablet 768x3248
 @media screen and (min-width: 768px) {
   .description {
     display: none;
   }
 }
 
-//Desktop >1200
 @media screen and (min-width: 1200px) {
   .description {
     display: flex;
     padding-bottom: var(--section-inner-padding);
-    // & .container {
-    //   display: flex;
-    // }
   }
   .description__title {
     color: var(--title-text-color);

@@ -1,7 +1,4 @@
 .mobile-menu {
-  // display: flex;
-  // flex-direction: column;
-  // justify-content: space-between;
   position: fixed;
   top: 0;
   left: 50%;
@@ -20,7 +17,6 @@
 }
 
 .mobile-menu.is-open {
-  // transform: translateY(0) translateX(-50%);
   opacity: 1;
   visibility: visible;
   pointer-events: auto;

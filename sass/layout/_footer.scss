@@ -4,7 +4,7 @@
   padding-bottom: 60px;
 }
 
-// Mobile 480
+
 @media screen and (max-width: 767px) {
   .footer__container {
     flex-direction: column;
@@ -13,7 +13,7 @@
   }
 }
 
-// Tablet 768
+
 @media screen and (min-width: 768px) {
   .footer__container {
     display: flex;
@@ -24,7 +24,7 @@
   }
 }
 
-//Desktop >1200
+
 @media screen and (min-width: 1200px) {
   .footer__container {
     position: relative;

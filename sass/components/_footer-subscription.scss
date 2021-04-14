@@ -64,7 +64,6 @@
   margin-left: 10px;
 }
 
-// Mobile 480
 @media screen and (max-width: 767px) {
   .subscription__form {
     margin-left: 0;
@@ -92,7 +91,6 @@
   }
 }
 
-// Tablet 768
 @media screen and (min-width: 768px) {
   .subscription__form {
     display: flex;
@@ -116,7 +114,6 @@
   }
 }
 
-//Desktop >1200
 @media screen and (min-width: 1200px) {
   .subscription__form {
     margin-top: 12px;

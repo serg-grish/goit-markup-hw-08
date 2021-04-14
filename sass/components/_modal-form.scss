@@ -95,16 +95,16 @@
 
 .modal-form__checkbox::before {
   display: block;
-  content: '';
+  content: "";
   width: 16px;
   height: 15px;
   margin-right: 8px;
-  background-image: url('../images/svg/check-box.svg');
-  /*---Стан чекбокса - CHECKED----*/
+  background-image: url("../images/svg/check-box.svg");
+
   .modal-form__term-input:checked + & {
     border-color: var(--accent-color);
     background-color: var(--accent-color);
-    background-image: url('../images/svg/check-label.svg');
+    background-image: url("../images/svg/check-label.svg");
     background-size: contain;
     background-origin: border-box;
     background-position: center;
@@ -168,7 +168,6 @@
   }
 }
 
-// 320 - 480
 @media screen and (max-width: 480px) {
   .modal-form__checkbox {
     font-size: 10px;
@@ -177,7 +176,6 @@
   }
 }
 
-//Desktop >1200
 @media screen and (min-width: 1200px) {
   .modal-form__checkbox {
     font-size: 14px;
