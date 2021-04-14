@@ -1,0 +1,112 @@
+.feachers {
+  padding-top: 45px; //60px
+  padding-bottom: 45px; //60px
+}
+
+.feachers__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.feachers__item {
+  justify-content: center;
+  margin: 15px;
+}
+
+.feachers__iconbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--team-section-bground);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.feachers__title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.feachers__description {
+  color: var(--prime-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+// Mobile 480x796
+@media screen and (max-width: 767px) {
+  .feachers__title {
+    text-align: center;
+  }
+  .feachers__iconbox {
+    min-width: 100%;
+  }
+}
+
+// Tablet 768x3248
+@media screen and (min-width: 768px) {
+  .feachers__item {
+    flex-basis: calc((100% / 2 - 30px));
+  }
+}
+
+//Desktop >1200
+@media screen and (min-width: 1200px) {
+  .feachers {
+    padding-top: var(--section-inner-padding);
+    padding-bottom: var(--section-inner-padding);
+  }
+
+  .feachers__item {
+    flex-basis: calc((100% / 4 - 30px));
+  }
+
+  .feachers__iconbox {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+}
+
+//-------------------------old styles
+
+// .feachers__list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   margin: -15px;
+// }
+
+// .feachers__item {
+//   flex-basis: calc((100% / 4 - 30px));
+//   margin: 15px;
+// }
+
+// .feachers__iconbox {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   width: 270px;
+//   height: 120px;
+//   background-color: var(--team-section-bground);
+//   border-radius: 4px;
+//   margin-bottom: 30px;
+// }
+
+// .feachers__title {
+//   color: var(--title-text-color);
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   letter-spacing: 0.03em;
+//   text-transform: uppercase;
+//   margin-bottom: 10px;
+// }
